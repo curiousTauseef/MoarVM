@@ -470,8 +470,6 @@ struct MVMInstance {
     MVMObject *SpeshLog;
     MVMObject *StaticFrameSpesh;
 
-    MVMObject *SpeshPluginState;
-
     /* Set of bootstrapping types. */
     MVMBootTypes boot_types;
 
